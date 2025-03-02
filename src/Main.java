@@ -13,7 +13,7 @@ public class Main {
         delfinoDellAntartide.dormi();
         delfinoDellAntartide.mangia();
         delfinoDellAntartide.verso();
-        IVolante aquilaReale = new Aquila();
+        Aquila aquilaReale = new Aquila();
         faiVolare(aquilaReale);
 
     }
