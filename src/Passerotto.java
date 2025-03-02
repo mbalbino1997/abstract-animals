@@ -1,4 +1,4 @@
-public class Passerotto extends AbstractAnimals {
+public class Passerotto extends AbstractAnimals implements IVolante {
 
     @Override
     void verso() {
@@ -8,6 +8,11 @@ public class Passerotto extends AbstractAnimals {
     @Override
     void mangia() {
         System.out.println("Mangia semi di girasole");
+    }
+
+    @Override
+    public void vola() {
+        System.out.println("Vola vicino le casette");
     }
 
 }

@@ -1,4 +1,4 @@
-public class Aquila extends AbstractAnimals {
+public class Aquila extends AbstractAnimals implements IVolante {
 
     @Override
     void verso() {
@@ -8,6 +8,11 @@ public class Aquila extends AbstractAnimals {
     @Override
     void mangia() {
         System.out.println("Mangia pesce");
+    }
+
+    @Override
+    public void vola() {
+        System.out.println("Vola molto in alto");
     }
 
 }

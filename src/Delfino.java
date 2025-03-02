@@ -1,4 +1,4 @@
-public class Delfino extends AbstractAnimals {
+public class Delfino extends AbstractAnimals implements INuotante{
 
     @Override
     void verso() {
@@ -8,6 +8,11 @@ public class Delfino extends AbstractAnimals {
     @Override
     void mangia() {
         System.out.println("Mangia pesciolini");
+    }
+
+    @Override
+    public void nuota() {
+        System.out.println("Nuota a 25km/h");
     }
 
 }
